@@ -26,6 +26,11 @@ const baseChain = defineChain({
 
 export const queryClient = new QueryClient();
 
+export const builderCodeConfig = {
+  code: "bc_06u853n8",
+  suffix: "0x62635f3036753835336e380b0080218021802180218021802180218021" as `0x${string}`,
+};
+
 export const wagmiConfig = createConfig({
   chains: [baseChain],
   transports: {
@@ -33,9 +38,3 @@ export const wagmiConfig = createConfig({
   },
   multiInjectedProviderDiscovery: true,
 });
-
-// TODO(builder-code): Replace this placeholder with the final builder code suffix
-// once the production Base builder code string is provided by the user.
-export const builderCodeConfig = {
-  suffix: "TODO_REPLACE_WITH_BUILDER_CODE_SUFFIX",
-};

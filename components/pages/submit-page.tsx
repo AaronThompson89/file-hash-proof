@@ -13,6 +13,7 @@ import { CONTRACT_ADDRESS } from "@/lib/constants";
 import { proofContractAbi } from "@/lib/proof-contract";
 import { useProofStore } from "@/lib/proof-store";
 import { isHex32 } from "@/lib/utils";
+import { builderCodeConfig } from "@/lib/wagmi";
 import { trackTransaction } from "@/utils/track";
 
 export function SubmitPage() {
@@ -65,6 +66,7 @@ export function SubmitPage() {
         abi: proofContractAbi,
         functionName: "saveProof",
         args: [hashValue as `0x${string}`],
+        dataSuffix: builderCodeConfig.suffix,
       });
 
       const localProof = createLocalProof({
@@ -114,6 +116,9 @@ export function SubmitPage() {
                 <div style={{ marginTop: 6, color: "#cbd5e1", wordBreak: "break-all" }}>
                   Contract target: {CONTRACT_ADDRESS}
                 </div>
+                <div style={{ marginTop: 6, color: "#94a3b8", fontSize: "0.84rem", wordBreak: "break-all" }}>
+                  Attribution code: {builderCodeConfig.code}
+                </div>
               </div>
               <ProofStatusChip status={receipt.isSuccess ? "proved" : manualStatus} />
             </div>
@@ -137,8 +142,12 @@ export function SubmitPage() {
               <strong>{receipt.isSuccess ? "Confirmed" : txHash ? "Pending" : "Idle"}</strong>
             </div>
             <div style={{ display: "flex", justifyContent: "space-between", gap: 12 }}>
-              <span className="muted">Recent receipt</span>
-              <strong>{txHash ? "Captured" : "Waiting"}</strong>
+              <span className="muted">Builder code</span>
+              <strong>{builderCodeConfig.code}</strong>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", gap: 12 }}>
+              <span className="muted">8021 suffix</span>
+              <strong>{builderCodeConfig.suffix ? "Attached" : "Missing"}</strong>
             </div>
             {txHash && createdProofId ? (
               <button

@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useAccount, useConnect, useDisconnect } from "wagmi";
-import { injected } from "wagmi/connectors";
+import { injected, useAccount, useConnect, useDisconnect } from "wagmi";
 import { shortenHash } from "@/lib/utils";
 
 export function WalletButton({ compact = false }: { compact?: boolean }) {
