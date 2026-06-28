@@ -71,3 +71,7 @@ The exact commands may depend on the implementation provided in this repository.
 The source code is available at:
 
 <https://github.com/AaronThompson89/file-hash-proof.git>
+
+## Notes
+
+A file hash proves that the file contents match a specific recorded value.
