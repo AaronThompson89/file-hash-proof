@@ -41,3 +41,7 @@ Review the project files:
 ```bash
 ls
 ```
+
+If the project includes install or build instructions in its files, follow those instructions before running it.
+
+## Usage
