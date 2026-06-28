@@ -17,3 +17,7 @@ This repository is intended to support workflows where a file hash is generated,
 ## Features
 
 - Provides a project space for file hash verification workflows.
+- Supports the idea of comparing a file against a previously recorded hash.
+- Keeps the project focused on file integrity and proof of unchanged content.
+- Can be cloned and extended for local verification needs.
+- Uses a clear repository name and structure for hash-proof related work.
