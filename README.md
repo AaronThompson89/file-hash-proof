@@ -89,3 +89,9 @@ It is most useful when the original hash is recorded before any suspected change
 Contributions can be made by forking the repository and submitting a pull request.
 
 Before contributing, review the existing files and keep changes aligned with the purpose of the project.
+
+## License
+
+No license information was provided in the original README.
+
+Check the repository for a license file before using, modifying, or distributing the project.
