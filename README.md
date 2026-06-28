@@ -85,3 +85,7 @@ It does not replace secure storage, backups, or access control.
 It is most useful when the original hash is recorded before any suspected change occurs.
 
 ## Contributing
+
+Contributions can be made by forking the repository and submitting a pull request.
+
+Before contributing, review the existing files and keep changes aligned with the purpose of the project.
