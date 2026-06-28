@@ -79,3 +79,9 @@ A file hash proves that the file contents match a specific recorded value.
 It does not identify who created the file.
 
 It does not explain why a file changed.
+
+It does not replace secure storage, backups, or access control.
+
+It is most useful when the original hash is recorded before any suspected change occurs.
+
+## Contributing
