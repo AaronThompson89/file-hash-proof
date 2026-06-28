@@ -7,3 +7,9 @@ Repository: <https://github.com/AaronThompson89/file-hash-proof.git>
 ## Overview
 
 File hashes are useful when you need to confirm that a file has not changed.
+
+A hash can act as a compact fingerprint of a file's contents.
+
+If the file changes, the hash should also change.
+
+This repository is intended to support workflows where a file hash is generated, saved, shared, or checked later as proof that the file content remains the same.
