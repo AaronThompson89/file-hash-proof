@@ -13,3 +13,7 @@ A hash can act as a compact fingerprint of a file's contents.
 If the file changes, the hash should also change.
 
 This repository is intended to support workflows where a file hash is generated, saved, shared, or checked later as proof that the file content remains the same.
+
+## Features
+
+- Provides a project space for file hash verification workflows.
