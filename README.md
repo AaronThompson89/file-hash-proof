@@ -45,3 +45,9 @@ ls
 If the project includes install or build instructions in its files, follow those instructions before running it.
 
 ## Usage
+
+A typical file hash proof workflow looks like this:
+
+1. Choose the file you want to verify.
+2. Generate a hash for that file.
+3. Store the hash in a safe place.
