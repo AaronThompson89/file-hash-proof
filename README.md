@@ -21,3 +21,9 @@ This repository is intended to support workflows where a file hash is generated,
 - Keeps the project focused on file integrity and proof of unchanged content.
 - Can be cloned and extended for local verification needs.
 - Uses a clear repository name and structure for hash-proof related work.
+
+## Getting Started
+
+Clone the repository:
+
+```bash
