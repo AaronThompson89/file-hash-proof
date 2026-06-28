@@ -75,3 +75,7 @@ The source code is available at:
 ## Notes
 
 A file hash proves that the file contents match a specific recorded value.
+
+It does not identify who created the file.
+
+It does not explain why a file changed.
