@@ -31,3 +31,9 @@ git clone https://github.com/AaronThompson89/file-hash-proof.git
 ```
 
 Move into the project directory:
+
+```bash
+cd file-hash-proof
+```
+
+Review the project files:
