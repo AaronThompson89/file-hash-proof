@@ -37,3 +37,7 @@ cd file-hash-proof
 ```
 
 Review the project files:
+
+```bash
+ls
+```
