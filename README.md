@@ -61,3 +61,7 @@ A typical file hash proof workflow looks like this:
 Generate or record a hash for an important file.
 
 Save the hash alongside the file, in documentation, or in a separate proof record.
+
+When verification is needed, compute the hash again and compare it with the saved value.
+
+The exact commands may depend on the implementation provided in this repository.
