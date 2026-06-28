@@ -55,3 +55,9 @@ A typical file hash proof workflow looks like this:
 5. Compare the new hash with the saved hash.
 6. If the hashes match, the file contents are unchanged.
 7. If the hashes differ, the file contents have changed.
+
+## Example Workflow
+
+Generate or record a hash for an important file.
+
+Save the hash alongside the file, in documentation, or in a separate proof record.
