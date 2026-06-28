@@ -27,3 +27,7 @@ This repository is intended to support workflows where a file hash is generated,
 Clone the repository:
 
 ```bash
+git clone https://github.com/AaronThompson89/file-hash-proof.git
+```
+
+Move into the project directory:
