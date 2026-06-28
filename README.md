@@ -51,3 +51,7 @@ A typical file hash proof workflow looks like this:
 1. Choose the file you want to verify.
 2. Generate a hash for that file.
 3. Store the hash in a safe place.
+4. Later, generate the hash again from the same file.
+5. Compare the new hash with the saved hash.
+6. If the hashes match, the file contents are unchanged.
+7. If the hashes differ, the file contents have changed.
